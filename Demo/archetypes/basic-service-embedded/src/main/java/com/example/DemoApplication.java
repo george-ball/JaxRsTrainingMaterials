@@ -1,0 +1,18 @@
+package com.example;
+
+import com.example.api.resource.MyResource;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+import java.util.HashSet;
+import java.util.Set;
+
+@ApplicationPath("/api")
+public class DemoApplication extends Application {
+  @Override
+  public Set<Class<?>> getClasses() {
+    Set<Class<?>> classes = new HashSet<>();
+    classes.add(MyResource.class);
+    return classes;
+  }
+}
