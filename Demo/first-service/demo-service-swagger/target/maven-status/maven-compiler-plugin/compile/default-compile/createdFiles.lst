@@ -1,0 +1,4 @@
+com/example/api/DemoApplication.class
+com/example/api/swagger/SwaggerUiServlet.class
+com/example/api/resource/HelloResource.class
+com/example/api/OpenApiConfig.class

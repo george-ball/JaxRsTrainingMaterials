@@ -12,6 +12,6 @@ public class HelloServlet extends HttpServlet {
   protected void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().write("Hello, World\n");
+    resp.getWriter().write("Hello, Everyone\n");
   }
 }
